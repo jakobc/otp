@@ -1,0 +1,200 @@
+<html>
+<title>Currently in the 'pu' branch</title>
+<style type="text/css" media="all">
+    body {
+      width: 600px;
+    }
+</style>
+<body>
+<h1>Currently in the 'pu' branch</h1>
+<p>The comment about each topic branch is taken from the latest
+<em>What's cooking in erlang/otp</em> email and may no longer apply if
+the topic branch has been updated.
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/1e7136e7c65d35d4b964c30a766ab41312b8db14">egil/gitignore</a> (.gitignore
+, otp):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/c53fe4bad87aacb676926e7745902313e25ea6e0">Ignore files generated when running/building tests</a></li>
+<li><a href="http://github.com/erlang/otp/commit/2f1da83153269f136a2d9b7ea24196fec8a6b2f2">Update .gitignore files</a></li>
+</ul>
+<p><i>New topic branch</i>
+<p>
+</li>
+<li><a href="http://github.com/erlang/otp/commit/4c79fdda7762988441c043bba9aa05d98a57ac0c">egil/lcnt</a> (erts, tools):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/e26beddb221f958e64358be5e11d7303e18076ce">Add test suite for lcnt in tools</a></li>
+<li><a href="http://github.com/erlang/otp/commit/c24d1535ab66ac1173059164bef45588302f7121">Add lcnt:rt_opt/1 bindings to erts_debug</a></li>
+<li><a href="http://github.com/erlang/otp/commit/dd665ed7627c56e86bf8ae65b50b2e94e54cb282">Add runtime option to enable/disable lcnt stats</a></li>
+<li><a href="http://github.com/erlang/otp/commit/12990afe3e5988a9a0f23f227622149c397b0905">Add auto width on string output</a></li>
+<li><a href="http://github.com/erlang/otp/commit/41d49130b197224b02aca90cc1ec925a9a18c1f8">Add lcnt documentation</a></li>
+<li><a href="http://github.com/erlang/otp/commit/c41fa05bf2393457149cf2c3467b65f632ea6fc1">Add lock profiling tool</a></li>
+</ul>
+<p>
+<font color="red">This topic branch introduces 90.5 lines with whitespace errors.</font>
+<p></li>
+<li><a href="http://github.com/erlang/otp/commit/5a9d8fb5427087727ee52f5569fe811460a85072">dgud/wx_list_ctrl</a> (wx):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/cfd2ba46158ad1ac6798e48150d18c969966a152">Generate without trailing spaces</a></li>
+<li><a href="http://github.com/erlang/otp/commit/5b585a4ab588f851902298263630caed458e7021">Fix correct starting copyright year</a></li>
+<li><a href="http://github.com/erlang/otp/commit/ce3cd31661a9b7ce3d6f4ce60079af3f860d1f6a">Do not emit trailing whitespace</a></li>
+<li><a href="http://github.com/erlang/otp/commit/aa17e2bb5e9d53c69dcd86b8bf31584db24fe35a">Added tests for wxListCtrl:getItem/2.</a></li>
+<li><a href="http://github.com/erlang/otp/commit/e6433fcb3cc2a2896b6a7d488d7fbe25f2ad6bf2">Added wxListCtrl:getEditCtrl (not available on Mac)</a></li>
+</ul>
+<p></li>
+<li><a href="http://github.com/erlang/otp/commit/36c80c411274b605d8b8e15591d409046c70d2d4">rani/inet_gethostbyname_fixes</a> (erts, kernel):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/9bf452c38f2705913443a6c50119ebbfc07f3d29">inet_res_SUITE: testcase fix for empty domain name</a></li>
+<li><a href="http://github.com/erlang/otp/commit/3fbd6e61abe6a6d9fe9dda89e9665aa2bd395c57">inet:gethostbyname improved to parse IP strings and look up own hostname</a></li>
+</ul>
+<p></li>
+<li><a href="http://github.com/erlang/otp/commit/b421bfd38e7314f2d082c2ec8a700b337f4f62d7">bg/temp-hipe-fixes</a> (compiler, hipe, kernel):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/5c9a0176cb18d91322519208385d01f0bfad3cb3">Crudely fix return type for the lists:key{search,find,member}/3</a></li>
+<li><a href="http://github.com/erlang/otp/commit/c569f8532cd9ab1714887f4caeb94f7a764281b8">seq_trace_SUITE: Don't native-compile</a></li>
+<li><a href="http://github.com/erlang/otp/commit/101dcc838f655b14018e234c4eadc479d99e4535">Disable native code if on_load is used</a></li>
+<li><a href="http://github.com/erlang/otp/commit/cb4495902cb8bf1de3d1a83dfdbb683d24212b66">andor_SUITE: Don't native-compile</a></li>
+</ul>
+<p>
+<font color="red">This topic branch introduces 1 line with whitespace errors.</font>
+<p>This branch contains temporary workarounds to avoid failing test
+cases and is never intended to graduate.
+
+<p>
+</li>
+<li><a href="http://github.com/erlang/otp/commit/4358e45589570c8fd70178e26e76e5f37210b421">bg/erl_bif_types</a> (hipe):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/249f73a33c762a678935ca0196a763293361e1ab">Add types for erts_debug:dist_ext_to_term/2</a></li>
+<li><a href="http://github.com/erlang/otp/commit/7c72a779813fd93eaa0c1ee2ac463a3423b25452">erl_bif_types: add 'http_bin' as a valid packet option</a></li>
+</ul>
+<p></li>
+<li><a href="http://github.com/erlang/otp/commit/128a43b86ac2fa88ed9ea93eb7e55f9aa3eb6658">jb/atom-table-size</a> (erts):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/489577676f14d5ee62459f9134095d982a08e430">Add the +t emulator option to change the maximum number of atoms</a></li>
+</ul>
+<p>Should graduate soon.
+
+<p>
+</li>
+<li><a href="http://github.com/erlang/otp/commit/f613cf62d8bf3651cb05227a844b7bba29e4890a">dgud/emacs-mode</a> (tools):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/2cbe8533fe2f0bde3c1a61012b805d0e1652a7e0">Added the old style skeletons, and a variable to change.</a></li>
+<li><a href="http://github.com/erlang/otp/commit/b4fd16161390cda361273ca5a50712dfbac064a0">Move code skeletons to a separate file. Use the updated skeletons from the Erlware Mode.</a></li>
+</ul>
+<p></li>
+<li><a href="http://github.com/erlang/otp/commit/4704b2a3f902349fe2e13da313456922fd31d777">jn/sasl-format_report</a> (sasl):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/ee8f29f501866a37bf5497fc2b9d411a560b4911">Added sasl_report:format_report/3 to return a string rather than send an io</a></li>
+</ul>
+<p></li>
+<li><a href="http://github.com/erlang/otp/commit/ba834f1766ab3c9163ebfe3b4bdaa38ba75e4841">ks/bsl_system_limit</a> (hipe):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/dcada6957f0fe948fa845cf12424ebc4b8c6e390">Fix a HiPE compiler bug evaluating an expression that throws system_limit.</a></li>
+</ul>
+<p></li>
+<li><a href="http://github.com/erlang/otp/commit/95b1a8d77225e2e712807ddf41c01a84b6a540df">jn/supervisor_child_count_only</a> (stdlib):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/10ef53fd940208e7f183ee5300112c6b3c0c8f71">Add count_children/1 to supervisor.erl to determine the number of children being managed without the memory impact of which_children/1</a></li>
+</ul>
+<p>Test cases fail when the emulator has been started with the +Meamin
+option.
+
+<p>
+</li>
+<li><a href="http://github.com/erlang/otp/commit/2f749b84d8dc50ec237b3abab5528539935e254b">gc/hipe_darwin_amd64</a> (erts):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/32ca14f44de136fe517787f0fa1e53df6b0d0bc8">Fix hipe memory allocation problems on darwin/amd64.</a></li>
+<li><a href="http://github.com/erlang/otp/commit/427f1db8dd74742d8584ff820a60bac25c01cd1f">Porting x86 darwin fixes to amd64 darwin hipe asm/m4 code.</a></li>
+<li><a href="http://github.com/erlang/otp/commit/43ae4b743eafdeba7979e575990c590039ba79e3">Automatically enable hipe for darwin/amd64 builds.</a></li>
+<li><a href="http://github.com/erlang/otp/commit/733ce7ae705a712a2017f9124e3448b5a100aee0">Allow configure to enable_hipe for darwin/amd64 builds.</a></li>
+</ul>
+<p></li>
+<li><a href="http://github.com/erlang/otp/commit/3c2ac5bb81d391f4a2f5a791d8ef2f322d36c76c">pan/enable_m32_build</a> (erts, otp):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/15c78172e83901403e69a6999f22c3160b64c742">Teach configure --enable-m32-build for forcing a 32-bit build</a></li>
+</ul>
+<p></li>
+<li><a href="http://github.com/erlang/otp/commit/568245544e75f448c24ce66514d8c705fca454e1">jp/dependencies_makefile</a> (compiler, erts):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/bf2708d3b92705320679c51ace9d2c208d779298">squash! fix snprintf for Windows</a></li>
+<li><a href="http://github.com/erlang/otp/commit/7cbc4374a3621e26067c187ce36d3e75dfa70873">Add dependencies Makefile generation to erlc(1) and compile(3)</a></li>
+</ul>
+<p>Approved in principle by the OTP Technical Board; now awaits a closer
+review of the implementation.
+
+<p>
+</li>
+<li><a href="http://github.com/erlang/otp/commit/4dea982df99e69f72cc3ca714fc2f1de4be73d53">is/mnesia-send-compressed</a> (mnesia):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/3757d8fb1dfd1ff9b80aed2376070b5c4888aaba">Add option to compress data when copying tables between Mnesia nodes</a></li>
+</ul>
+<p>Should graduate soon.
+
+<p>
+</li>
+<li><a href="http://github.com/erlang/otp/commit/257cfae2d0496725e57ba0e3c06437d030357d07">sc/sctp-connect-nowait</a> (kernel):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/ae3d819044ea6fb77ecf15ceed4a0cfe611572b4">Implement a non-blocking SCTP connect</a></li>
+</ul>
+<p>Approved in principle, but the implementation needs some
+finish touches as pointed out by Raimo, and also
+documentation and test cases.
+
+<p>
+</li>
+<li><a href="http://github.com/erlang/otp/commit/6be370f8fffefd546fd92f4d0010523dfa6e54f6">va/rb-improvements</a> (sasl):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/5391383193d4fe024c470c8db7579f45dd9a8c3d">New function to filter reports by date</a></li>
+<li><a href="http://github.com/erlang/otp/commit/ed283484cfff13405da02e097e98fe2a8dc02c65">New rb:filter/1 function to ease report filtering</a></li>
+<li><a href="http://github.com/erlang/otp/commit/e5bd09137ea459255f1661efc4cc5ca1bea4bfdf">Add rb:re/1 to grep reports using the re module</a></li>
+<li><a href="http://github.com/erlang/otp/commit/07c6ad442552a1b8d4d10a68b526378368a59253">Fix minor typo in read_report/1</a></li>
+</ul>
+<p>There is no need to introduce a new function rb:re/1, but
+rb:grep/1 can be modified to use the 're' module. Also,
+it should not be necessary to compile the regular expression
+beforehand.
+
+<p>
+
+</li>
+<li><a href="http://github.com/erlang/otp/commit/786acd668ec031f621ac48dc72902ee01ae60531">at/odbc_osx_fix</a> (odbc):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/88c71c95d23afc3d185d64b050cb5fba243d4cee">Workaround broken ODBC implementation on OSX 10.5</a></li>
+</ul>
+<p></li>
+<li><a href="http://github.com/erlang/otp/commit/180da306ccf37441ffb84239ee12f13fe2e0e31f">db/tv_nthtail_fix</a> (tv):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/abe07595f90a5a83ce96100fbd1c0da40a765704">Fix for tv which restarts while trying to open a table</a></li>
+</ul>
+<p>The author of this topic branch has found the real reason for
+the problem and has made some progress in resolving it.
+
+<p>
+</li>
+<li><a href="http://github.com/erlang/otp/commit/353eca10a56cc182ac665bcc548ea34ece1c44d6">po/odbc-update-delete-no-rows</a> (odbc):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/1a564f84da39a309e40353ae52f2bb4366268a1e">SQL_NO_DATA and SQLSTATE 00000 indicate success for updates/deletes that affect no rows</a></li>
+</ul>
+<p></li>
+</ul>
+</body>
+</html>
